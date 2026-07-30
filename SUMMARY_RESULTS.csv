@@ -1,0 +1,19 @@
+Metric,Facebook,AdWords,Difference,Percentage Difference,Winner
+Total Views,795606,1493814,-698208,-87.77%,AdWords
+Total Clicks,13136,15475,-2339,-17.81%,AdWords
+Total Conversions,4286,2183,2103,96.38%,Facebook
+Total Cost,$62943.45,$73828.21,-$10884.76,-14.74%,Facebook
+Daily Avg Views,2180.30,4093.32,-1913.02,-46.77%,AdWords
+Daily Avg Clicks,35.98,42.40,-6.42,-15.14%,AdWords
+Daily Avg Conversions,11.74,5.98,5.76,96.32%,Facebook
+Daily Avg Cost,$172.45,$202.27,-$29.82,-14.74%,Facebook
+Average CTR %,1.65,1.41,0.24,17.38%,Facebook
+Average Conversion Rate %,27.15,10.18,16.97,166.67%,Facebook
+Average Cost per Click,$2.19,$2.38,-$0.19,-8.40%,Facebook
+Cost per Acquisition,$14.68,$33.83,-$19.15,-56.62%,Facebook
+ROI %,6708.09,2854.19,3853.90,134.93%,Facebook
+Views to Clicks Correlation,0.223,0.089,0.134,150.56%,Facebook
+Clicks to Conversions Correlation,0.456,0.197,0.259,131.47%,Facebook
+Statistical Significance - CTR,Yes,Yes,Same,Same,Significant
+Statistical Significance - CR,Yes,Yes,Same,Same,Significant
+Statistical Significance - CPC,Yes,Yes,Same,Same,Significant

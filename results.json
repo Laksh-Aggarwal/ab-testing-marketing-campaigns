@@ -1,0 +1,144 @@
+{
+  "analysis_metadata": {
+    "project": "AB Testing: Facebook Ads vs AdWords",
+    "analysis_date": "2026-07-30 17:29:14",
+    "data_period": "2019-01-01 to 2019-12-31",
+    "total_days": 365,
+    "status": "Complete"
+  },
+  "executive_summary": {
+    "winning_platform_conversions": "Facebook",
+    "winning_platform_efficiency": "Facebook",
+    "key_finding": "Facebook generated 4286 conversions vs AdWords' 2183 conversions (96% more conversions)",
+    "cost_efficiency_winner": "Facebook",
+    "recommendation": "Allocate more budget to Facebook based on significantly superior conversion performance"
+  },
+  "facebook_metrics": {
+    "total_views": 795586,
+    "total_clicks": 16078,
+    "total_conversions": 4286,
+    "total_cost": 32040.0,
+    "average_ctr_percent": 2.2,
+    "average_conversion_rate_percent": 27.15,
+    "average_cpc": 2.19,
+    "cost_per_acquisition": 7.48,
+    "roi_percentage": 1237.7,
+    "daily_average": {
+      "views": 2179.69,
+      "clicks": 44.05,
+      "conversions": 11.74,
+      "cost": 87.78
+    }
+  },
+  "adwords_metrics": {
+    "total_views": 1721777,
+    "total_clicks": 22040,
+    "total_conversions": 2183,
+    "total_cost": 49266.0,
+    "average_ctr_percent": 1.3,
+    "average_conversion_rate_percent": 10.18,
+    "average_cpc": 2.38,
+    "cost_per_acquisition": 22.57,
+    "roi_percentage": 343.1,
+    "daily_average": {
+      "views": 4717.2,
+      "clicks": 60.38,
+      "conversions": 5.98,
+      "cost": 134.98
+    }
+  },
+  "comparative_analysis": {
+    "views": {
+      "facebook": 795586,
+      "adwords": 1721777,
+      "difference": 926191,
+      "percentage_difference": 116.42,
+      "winner": "AdWords"
+    },
+    "clicks": {
+      "facebook": 16078,
+      "adwords": 22040,
+      "difference": 5962,
+      "percentage_difference": 37.08,
+      "winner": "AdWords"
+    },
+    "conversions": {
+      "facebook": 4286,
+      "adwords": 2183,
+      "difference": -2103,
+      "percentage_difference": -49.07,
+      "winner": "Facebook"
+    },
+    "cost": {
+      "facebook": 32040.0,
+      "adwords": 49266.0,
+      "difference": 17226.0,
+      "percentage_difference": 53.76,
+      "lower_cost": "Facebook"
+    },
+    "ctr_comparison": {
+      "facebook_avg": 2.2,
+      "adwords_avg": 1.3,
+      "difference": -0.91,
+      "winner": "Facebook"
+    },
+    "conversion_rate_comparison": {
+      "facebook_avg": 27.15,
+      "adwords_avg": 10.18,
+      "difference": 16.97,
+      "winner": "Facebook"
+    },
+    "cpc_comparison": {
+      "facebook_avg": 2.19,
+      "adwords_avg": 2.38,
+      "difference": 0.19,
+      "lower_cost": "Facebook"
+    }
+  },
+  "statistical_tests": {
+    "ctr_ttest": {
+      "t_statistic": 17.4254,
+      "p_value": 0.0,
+      "significant": "Yes",
+      "interpretation": "Significant difference in CTR"
+    },
+    "conversion_rate_ttest": {
+      "t_statistic": 63.9588,
+      "p_value": 0.0,
+      "significant": "Yes",
+      "interpretation": "Significant difference in conversion rate"
+    },
+    "cpc_ttest": {
+      "t_statistic": -2.6932,
+      "p_value": 0.0072,
+      "significant": "Yes",
+      "interpretation": "Significant difference in CPC"
+    }
+  },
+  "correlation_analysis": {
+    "facebook": {
+      "views_to_clicks": 0.069,
+      "clicks_to_conversions": 0.874
+    },
+    "adwords": {
+      "views_to_clicks": 0.084,
+      "clicks_to_conversions": 0.448
+    }
+  },
+  "key_insights": [
+    "Facebook achieved 96% more conversions (4286) than AdWords (2183)",
+    "Facebook conversion rate (27.2%) is 2.67x higher than AdWords (10.2%)",
+    "Facebook CPC ($2.19) is 8% lower than AdWords ($2.38)",
+    "AdWords attracted 2.16x more views but lower conversion efficiency",
+    "Facebook shows stronger click-to-conversion correlation (0.874) vs AdWords (0.448)"
+  ],
+  "recommendations": [
+    "Allocate 70% of budget to Facebook and 30% to AdWords based on superior conversion performance",
+    "Maintain AdWords for top-of-funnel awareness (higher view volume)",
+    "Optimize Facebook ad creatives to increase CTR while maintaining high conversion rates",
+    "Implement conversion tracking and retargeting for both platforms",
+    "Test Facebook lookalike audiences to scale successful segments",
+    "Monitor cost trends quarterly and adjust bids based on performance",
+    "Conduct A/B testing on landing pages for both platforms to improve CTR"
+  ]
+}
