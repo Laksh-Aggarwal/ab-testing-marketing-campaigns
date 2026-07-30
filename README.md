@@ -130,7 +130,6 @@ ab-testing-marketing-campaigns/
 │
 ├── README.md                              # Project documentation
 ├── requirements.txt                       # Python dependencies
-├── LICENSE                                # MIT License
 ├── .gitignore                            # Git ignore file
 │
 ├── notebooks/
@@ -228,11 +227,7 @@ Found insights or improvements? Feel free to:
 - **GitHub Issues:** Report bugs or suggest improvements
 - **Questions?** Feel free to reach out
 
----
 
-## 📄 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ---
 
